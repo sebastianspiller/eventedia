@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
-import EventCard from './components/EventCard';
-
+import React from "react";
+import "./App.css";
+import EventCard from "./components/EventCard";
+import EventCardJ from "./components/EventCardJ";
 function App() {
   return (
     <div>
-        <EventCard id="0" />
-        <EventCard id="0" />
-        <EventCard id="0" />
-        <EventCard id="0" />
+      <div className="container">
+        <EventCardJ id="1" />
+        <EventCardJ id="2" />
+      </div>
     </div>
   );
 }
