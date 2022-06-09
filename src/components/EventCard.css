@@ -17,3 +17,21 @@
     margin: auto;
     object-fit: cover;
 }
+
+.Ort {
+    text-align: left;
+
+}
+
+.Zeit {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .Beginn {
+    text-align: left;
+}
+
+.Ende {
+    text-align: right;
+} */
